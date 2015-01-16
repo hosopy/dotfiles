@@ -232,6 +232,7 @@ NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/neomru.vim'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'tpope/vim-endwise'
 
 call neobundle#end()
 
