@@ -342,3 +342,13 @@ function! s:GetHighlight(hi)
   return hl
 endfunction
 "------------------------------------------------------------
+
+"------------------------------------------------------------
+" Restore latest cursor position
+if has("autocmd")
+    autocmd BufReadPost *
+    \ if line("'\"") > 0 && line ("'\"") <= line("$") |
+    \   exe "normal! g'\"" |
+    \ endif
+endif
+"------------------------------------------------------------
