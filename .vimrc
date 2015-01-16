@@ -236,6 +236,7 @@ NeoBundle 'tpope/vim-endwise'
 NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'vim-scripts/AnsiEsc.vim'
+NeoBundle 'bronson/vim-trailing-whitespace'
 
 call neobundle#end()
 
@@ -291,4 +292,20 @@ set statusline+=%{fugitive#statusline()}
 "------------------------------------------------------------
 " vim-indent-guides
 let g:indent_guides_enable_on_vim_startup = 1
+"------------------------------------------------------------
+
+"------------------------------------------------------------
+" highlight ZenkakuSpace
+function! ZenkakuSpace()
+    highlight ZenkakuSpace cterm=underline ctermfg=lightblue guibg=darkgray
+endfunction
+
+if has('syntax')
+    augroup ZenkakuSpace
+        autocmd!
+        autocmd ColorScheme * call ZenkakuSpace()
+        autocmd VimEnter,WinEnter,BufRead * let w:m1=matchadd('ZenkakuSpace', '　')
+    augroup END
+    call ZenkakuSpace()
+endif
 "------------------------------------------------------------
