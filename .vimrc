@@ -234,6 +234,7 @@ NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'tpope/vim-endwise'
 NeoBundle 'tomtom/tcomment_vim'
+NeoBundle 'nathanaelkane/vim-indent-guides'
 
 call neobundle#end()
 
@@ -284,4 +285,9 @@ autocmd QuickFixCmdPost *grep* cwindow
 
 " ステータス行に現在のgitブランチを表示する
 set statusline+=%{fugitive#statusline()}
+"------------------------------------------------------------
+
+"------------------------------------------------------------
+" vim-indent-guides
+let g:indent_guides_enable_on_vim_startup = 1
 "------------------------------------------------------------
