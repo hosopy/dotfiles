@@ -231,6 +231,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/neomru.vim'
 NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'tpope/vim-fugitive'
 
 call neobundle#end()
 
@@ -271,4 +272,14 @@ au FileType unite inoremap <silent> <buffer> <ESC><ESC> <ESC>:q<CR>
 " NERDTree
 " Assign F11 as a shortcut of NERDTreeToggle
 nnoremap <f1> :NERDTreeToggle<CR>
+"------------------------------------------------------------
+
+
+"------------------------------------------------------------
+" fugitive.vim
+" grep検索の実行後にQuickFix Listを表示する
+autocmd QuickFixCmdPost *grep* cwindow
+
+" ステータス行に現在のgitブランチを表示する
+set statusline+=%{fugitive#statusline()}
 "------------------------------------------------------------
