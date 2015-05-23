@@ -1,3 +1,5 @@
+set noswapfile
+
 " Set 'nocompatible' to ward off unexpected things that your distro might
 " have made, as well as sanely reset options when re-sourcing .vimrc
 " Vi互換モードをオフ（Vimの拡張機能を有効）
