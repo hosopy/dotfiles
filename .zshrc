@@ -49,7 +49,7 @@ plugins=(my-env atom autojump brew brew-cask bundler cdd colored-man composer do
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:~/.nvm/v0.10.18/bin:~/.rbenv/shims:/usr/local/sbin:~/bin:~/dev/sdk/android-sdks/platform-tools:~/dev/sdk/android-sdks/tools:/usr/lib/php/bin:~/pear/bin:/usr/local/share/python"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -79,10 +79,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export PATH=$HOME/.rbenv/bin:$PATH
-eval "$(rbenv init - zsh)"
-#export CC=/usr/bin/gcc-4.2
-
 alias vi='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
 alias vim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
 alias mvim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/mvim "$@"'
+
+export PATH=$HOME/.rbenv/bin:$PATH
+eval "$(rbenv init - zsh)"
