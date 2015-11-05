@@ -9,6 +9,6 @@ set lines=40 columns=1200
 set guioptions-=T
 
 " 透過設定
-autocmd GUIEnter * set transparency=1      " 起動時
-autocmd FocusGained * set transparency=11   " アクティブ時
-autocmd FocusLost * set transparency=10     " 非アクティブ時
+"autocmd GUIEnter * set transparency=1      " 起動時
+"autocmd FocusGained * set transparency=11   " アクティブ時
+"autocmd FocusLost * set transparency=10     " 非アクティブ時
