@@ -91,6 +91,18 @@ eval "$(rbenv init - zsh)"
 # nvm
 source ~/.nvm/nvm.sh
 
+# pyenv
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+
 # Android SDK
 export ANDROID_HOME=~/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+
+load_if_exists () {
+    if [ -e $1 ]; then
+        source $1
+    fi
+}
+
+# Include local configration
+load_if_exists "$HOME/.zshrc_local"
