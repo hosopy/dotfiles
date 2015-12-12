@@ -239,6 +239,7 @@ NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'vim-scripts/AnsiEsc.vim'
 NeoBundle 'bronson/vim-trailing-whitespace'
+NeoBundle 'tpope/vim-rails'
 
 call neobundle#end()
 
