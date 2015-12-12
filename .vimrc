@@ -240,6 +240,7 @@ NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'vim-scripts/AnsiEsc.vim'
 NeoBundle 'bronson/vim-trailing-whitespace'
 NeoBundle 'tpope/vim-rails'
+NeoBundle 'vim-scripts/dbext.vim'
 
 call neobundle#end()
 
