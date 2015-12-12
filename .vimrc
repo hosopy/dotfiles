@@ -229,6 +229,7 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 " Required
 NeoBundleFetch 'Shougo/neobundle.vim'
 
+NeoBundle 'kana/vim-submode'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/neomru.vim'
 NeoBundle 'Shougo/neocomplcache.vim'
