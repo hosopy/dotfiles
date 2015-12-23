@@ -10,7 +10,7 @@ set nocompatible
 " and for plugins that are filetype specific.
 " ファイル名と内容によってファイルタイプを判別し、ファイルタイププラグインを有効にする
 filetype indent plugin on
- 
+
 " Enable syntax highlighting
 " 色づけをオン
 syntax on
@@ -29,20 +29,20 @@ colorscheme molokai
 " saving, and swap files will keep you safe if your computer crashes.
 " バッファを保存しなくても他のバッファを表示できるようにする
 set hidden
- 
+
 " Better command-line completion
 " コマンドライン補完を便利に
 set wildmenu
- 
+
 " Show partial commands in the last line of the screen
 " タイプ途中のコマンドを画面最下行に表示
 set showcmd
- 
+
 " Highlight searches (use <C-L> to temporarily turn off highlighting; see the
 " mapping of <C-L> below)
 " 検索語を強調表示（<C-L>を押すと現在の強調表示を解除する）
 set hlsearch
- 
+
 " Modelines have historically been a source of security vulnerabilities.  As
 " such, it may be a good idea to disable them and use the securemodelines
 " script, <http://www.vim.org/scripts/script.php?script_id=1876>.
@@ -68,7 +68,7 @@ set smartcase
 " オートインデント、改行、インサートモード開始直後にバックスペースキーで
 " 削除できるようにする。
 set backspace=indent,eol,start
- 
+
 " When opening a new line and no filetype-specific indenting is enabled, keep
 " the same indent as the line you're currently on. Useful for READMEs, etc.
 " オートインデント
