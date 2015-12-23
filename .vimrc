@@ -266,6 +266,7 @@ NeoBundle 'bronson/vim-trailing-whitespace'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'vim-scripts/dbext.vim'
 NeoBundle 'slim-template/vim-slim'
+NeoBundle 'kchmck/vim-coffee-script'
 
 call neobundle#end()
 
