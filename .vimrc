@@ -265,6 +265,7 @@ NeoBundle 'vim-scripts/AnsiEsc.vim'
 NeoBundle 'bronson/vim-trailing-whitespace'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'vim-scripts/dbext.vim'
+NeoBundle 'slim-template/vim-slim'
 
 call neobundle#end()
 
