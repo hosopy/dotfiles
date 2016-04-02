@@ -1,0 +1,23 @@
+"*":
+  core:
+    ignoredNames: [
+      ".git"
+      ".svn"
+      ".DS_Store"
+      "Thumbs.db"
+      ".vagrant"
+      ".keep"
+      "*~"
+    ]
+  editor:
+    fontFamily: "Ricty Diminished"
+    fontSize: 16
+    invisibles: {}
+  "exception-reporting":
+    userId: "51582835-db27-dfd1-8e18-dbe3b4a1dfac"
+  "git-diff":
+    showIconsInEditorGutter: true
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
