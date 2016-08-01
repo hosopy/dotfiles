@@ -106,3 +106,6 @@ load_if_exists () {
 
 # Include local configration
 load_if_exists "$HOME/.zshrc_local"
+
+# Init pyenv
+eval "$(pyenv init -)"
