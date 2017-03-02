@@ -1,5 +1,8 @@
 "*":
   core:
+    disabledPackages: [
+      "linter-scss-lint"
+    ]
     ignoredNames: [
       ".git"
       ".svn"
@@ -21,3 +24,4 @@
     hideIgnoredNames: true
   welcome:
     showOnStartup: false
+  whitespace: {}
