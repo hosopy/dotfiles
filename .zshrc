@@ -89,7 +89,8 @@ export PATH=$PATH:$HOME/.rbenv/bin
 eval "$(rbenv init - zsh)"
 
 # nvm
-source ~/.nvm/nvm.sh
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
 
 # pyenv
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
