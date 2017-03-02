@@ -1,3 +1,5 @@
+git submodule init
+git submodule update
 ln -s ~/dotfiles/.gitignore_global ~/.gitignore_global
 ln -s ~/dotfiles/.gvimrc  ~/.gvimrc
 ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
