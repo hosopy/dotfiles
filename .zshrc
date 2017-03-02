@@ -109,3 +109,6 @@ load_if_exists "$HOME/.zshrc_local"
 
 # Init pyenv
 eval "$(pyenv init -)"
+
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
